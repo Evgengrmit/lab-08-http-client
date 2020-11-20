@@ -16,7 +16,7 @@ class URL {
   std::string parse_url_to_target();
 
  private:
-  std::string url;
+  std::string url_;
 };
 
 #endif  // INCLUDE_URL_HPP_
